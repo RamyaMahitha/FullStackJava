@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="cal.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+      body{
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTIPNtFtHnphUTzqr2FdKNI9o6NWeCnASrRQ&s");
+      }
+
+    #A{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+        gap:50px;
+        height:100vh;
+    }
+    #input1{
+          width:200px;
+          height:50px;
+          font-size:20px;
+          padding-left:50px;
+          border-radius:20px;
+          background-color: aqua;
+    }
+    #input2{
+          width:200px;
+          height:50px;
+          font-size:20px;
+          padding-left:50px;
+          border-radius:20px;
+          background-color: aqua;
+    }
+    #btn{
+        width:150px;
+        height:40px;
+        background-color: rgb(42, 165, 95);
+    }
+    #btn:hover{
+        background-color: red;
+    }
+    #result{
+        color:red;
+        font-size:40px;
+        font-style:bold;
+    }
+    </style>
+    <div id="A">
+        <input type="number" id="input1" placeholder="Enter a value"/>
+        <input type="number" id="input2" placeholder="Enter b value"/>
+        <button id="btn">ADD</button>
+        <h2 id="result"></h2>
+    </div>
+</body>
+</html>
+
+
+

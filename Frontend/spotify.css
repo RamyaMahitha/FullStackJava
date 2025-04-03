@@ -1,0 +1,132 @@
+@media screen and (min-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    body {
+        background-color: #121212;
+        color: white;
+        padding-bottom: 20px;
+    }
+    
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+    }
+    
+    .nav-right {
+        display: flex;
+        align-items: center;
+        gap:15px;
+    }
+    
+    .menu-icon, .search-icon {
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .open-app-btn {
+        background-color: white;
+        color: black;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    
+    .premium-banner {
+        background-color: pink;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    .premium-banner h2 {
+        color: black;
+    }
+    
+    .premium-banner p {
+        color: black;
+        margin-top: 5px;
+    }
+    
+    .premium-btn {
+        background-color: black;
+        color: white;
+        padding: 8px 15px;
+        border: none;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    
+    .section {
+        margin: 20px;
+    }
+    
+    .section h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 10px;
+      
+    }
+    
+    .grid-item {
+        text-align: center;
+        position:relative;
+    }
+    .grid-item:hover{
+        border: 0.5px solid gray;
+    }
+    .grid-item1 {
+        text-align: center;
+        position:relative;
+    }
+    .grid-item1:hover{
+        border: 0.5px solid gray;
+    }
+    
+    .grid-item img {
+        width: 100%;
+        border-radius: 360px;
+    }
+    .grid-item1 img{
+        width:100%;
+        border-radius:15px;
+    }
+    
+    .grid-item p {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    #playbutton{
+        position: absolute;
+        top:80%;
+        left:75%;
+        transform:translate(-50%,-50%);
+        width:100px;
+        height:auto;
+        color:green;
+        opacity:0;
+        transition:opacity 0.3s ease;
+    }
+    .grid-item:hover #playbutton{
+        opacity:1;
+    }
+    .grid-item1:hover #playbutton{
+        opacity:1;
+    }
+    }
